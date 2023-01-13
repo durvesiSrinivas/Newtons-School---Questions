@@ -1,0 +1,15 @@
+static int Icecreams (int N, int D){
+
+for(int i=0; i<D; i++){
+        
+int rem= N/2;
+N=N-rem;
+N=N*3;
+
+}
+
+
+return N;
+
+
+}

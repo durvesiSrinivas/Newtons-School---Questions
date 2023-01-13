@@ -1,0 +1,23 @@
+static void isPalindrome(int N)
+	{
+	int temp=N,sum=0;   
+while(temp>0){
+ sum= sum *10 + temp%10;
+temp=temp/10;
+}
+
+if(sum==N){
+
+System.out.print("True");
+
+
+}else{
+System.out.print("False");
+
+}
+
+
+
+
+
+}
